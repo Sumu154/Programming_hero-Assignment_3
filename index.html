@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" theme="light">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <!-- style css -->
+        <link rel="stylesheet" href="style.css">
+        <!-- tailwind + daisy -->
+        <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <!-- javascript -->
+        <script src="custom-style.js"></script>
+
+
+        <!-- text font -->
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+        </style>
+        <!-- font awesome -->
+        <script src="https://kit.fontawesome.com/66cabd1410.js" crossorigin="anonymous"></script>
+
+
+
+    </head>
+
+    <body class="Manrope">
+        <header>
+          <div class="max-w-[90%] mx-auto">
+            <nav class="bg-slate-50 flex justify-between items-center px-2 py-6">
+              <!-- left part -->
+              <a class="flex items-center gap-2" href="#">
+                <!-- <img class="bg-green p-2 rounded-full" src="assets/icons/arrow light.svg" alt=""> -->
+                <i class="fa-solid fa-arrow-right-long  bg-green p-[6px] rounded-full transform -rotate-45"></i>
+                <span class="text-3xl font-bold"> Rinterio </span>
+              </a>
+
+              <!-- center part -->
+              <div class="hidden lg:flex gap-5">
+                <a class="text-base text-gray1 hover:text-hover" href=""> Home </a>
+                <a class="text-base text-gray1 hover:text-hover" href=""> Services </a>
+                <a class="text-base text-gray1 hover:text-hover" href=""> Portfolio </a> 
+                <a class="text-base text-gray1 hover:text-hover" href=""> Blogs </a>
+                <a class="text-base text-gray1 hover:text-hover" href=""> Contact Us </a> 
+              </div>
+
+              <!-- right part -->
+              <div class="flex items-center gap-3">
+                <div class="hidden md:flex items-center gap-3">
+                  <i class="fa-solid fa-magnifying-glass text-gray1 h-9 w-9 flex justify-center items-center rounded-full bg-white border border-ash"></i>
+                  <i class="fa-solid fa-cart-shopping text-gray1 h-9 w-9 flex justify-center items-center rounded-full bg-white border border-ash"></i>
+                  <button class="flex gap-2 bg-green px-3 py-2 rounded-full">
+                    <span class="text-xl text-black font-bold"> Book Consult </span>
+                    <i class="fa-solid fa-arrow-right-long  bg-black text-white p-[6px] rounded-full transform -rotate-45"></i>
+                  </button>
+                </div>
+
+                <!-- hamburer part -->
+                <div class="dropdown dropdown-end lg:hidden">
+                  <div tabindex="0"> <i class="fa-solid fa-bars text-gray1 h-9 w-9 flex justify-center items-center rounded-full bg-white border border-ash"></i> </div>
+                  <ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
+                    <li><a class="text-base text-gray1 hover:text-hover" href=""> Home </a> </li>
+                    <li><a class="text-base text-gray1 hover:text-hover" href=""> Services </a> </li>
+                    <li><a class="text-base text-gray1 hover:text-hover" href=""> Portfolio </a> </li>
+                    <li><a class="text-base text-gray1 hover:text-hover" href=""> Blogs </a> </li>
+                    <li><a class="text-base text-gray1 hover:text-hover" href=""> Contact Us </a> </li> 
+
+                    <li><a class="text-base text-gray1 hover:text-hover md:hidden" href=""> Search </a> </li>
+                    <li><a class="text-base text-gray1 hover:text-hover md:hidden" href=""> Cart </a> </li>
+                    <li><a class="text-base text-gray1 hover:text-hover md:hidden" href=""> Book Consult </a> </li>
+                    
+                  </ul>
+                </div>
+
+          
+                
+              </div>
+
+            </nav>
+
+            <!-- banner -->
+            <div class="hero bg-base-200">
+              <div class="hero-content text-center">
+                <img src="assets/image/" alt="">
+                <div class="max-w-md">
+                  <h1 class="text-5xl font-bold">Hello there</h1>
+                  <p class="py-6">
+                    Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+                    quasi. In deleniti eaque aut repudiandae et a id nisi.
+                  </p>
+                  <button class="btn btn-primary">Get Started</button>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </header>
+        <main>
+
+        </main>
+        <footer>
+
+        </footer>
+    </body>
+
+
+</html>
+
+
+<!-- 
+
+<div class="dropdown hidden">
+                  <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-5 w-5"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor">
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M4 6h16M4 12h8m-8 6h16" />
+                    </svg>
+                  </div>
+                  <ul
+                    tabindex="0"
+                    class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                    <li><a>Item 1</a></li>
+                    <li>
+                      <a>Parent</a>
+                      <ul class="p-2">
+                        <li><a>Submenu 1</a></li>
+                        <li><a>Submenu 2</a></li>
+                      </ul>
+                    </li>
+                    <li><a>Item 3</a></li>
+                  </ul>
+                </div>
+-->
