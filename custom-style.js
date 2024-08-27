@@ -9,11 +9,16 @@ tailwind.config = {
         colors: {
           green: '#ABEF5F',
           lightgreen: 'rgba(171, 239, 95, 0.50)',
-          black: '#1C1C1C',
-          gray1: '#737373',
-          hover: '#494949',
-          ash: 'E9E9E9',
-          heading: '212121',
+
+
+          
+          gray1: '#E9E9E9',
+          grey2: '#A0A0A0',
+          grey3: '#737373',
+          grey4: '#494949',
+          grey5: '#212121',
+          grey6: '#1C1C1C',
+          ash: '#edf0f5',
         },
       }
     }
