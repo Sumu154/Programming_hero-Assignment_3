@@ -12,7 +12,7 @@ tailwind.config = {
 
 
           
-          gray1: '#E9E9E9',
+          grey1: '#E9E9E9',
           grey2: '#A0A0A0',
           grey3: '#737373',
           grey4: '#494949',
@@ -25,6 +25,10 @@ tailwind.config = {
           bgpastle: '#A4DAC3',
           bgblue: '#77AAEA',
         },
+
+        backgroundImage: {
+          'bginput': "url('assets/image/bg.jpg')",
+        }
       }
     }
   }
