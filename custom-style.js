@@ -19,6 +19,11 @@ tailwind.config = {
           grey5: '#212121',
           grey6: '#1C1C1C',
           ash: '#edf0f5',
+
+          bgpink: '#E7C1D3',
+          bgyellow: '#EFDA6E',
+          bgpastle: '#A4DAC3',
+          bgblue: '#77AAEA',
         },
       }
     }
